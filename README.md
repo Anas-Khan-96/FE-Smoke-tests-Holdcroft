@@ -1,6 +1,6 @@
 FE smoke tests - Holdcroft
 
-This repository contains end-to-end (E2E) tests written in Cypress for FE Smoke Tests - Holdcroft
+This repository contains end-to-end (E2E) tests written in Cypress for FE Smoke Tests - Holdcroft (Currently in WIP)
 
 ## Table of Contents
 
