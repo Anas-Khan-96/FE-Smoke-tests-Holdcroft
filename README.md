@@ -6,7 +6,6 @@ This repository contains end-to-end (E2E) tests written in Cypress for FE Smoke 
 
 - [About](#about)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
 
