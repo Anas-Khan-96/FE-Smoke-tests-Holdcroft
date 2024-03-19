@@ -1,8 +1,8 @@
 describe('Vehicle search from the homepage', () => {
     it('Verify the user can search for vehicles from the homepage', () => {
 //navigate to the HC Page
-cy.visit('https://holdcroft.pre.nexuspointdev.co.uk')
-.wait(2000)
+cy.visit(Cypress.env('apex_fe_hc_url'))
+.wait(2000);
 
 //accept cookies
 cy.get('#cookiescript_accept').click()

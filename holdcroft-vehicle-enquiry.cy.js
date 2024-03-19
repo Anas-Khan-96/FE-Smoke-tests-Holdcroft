@@ -21,7 +21,7 @@ describe('Vehicle enquiry from VDP', () => {
 
         // Click the search button
         cy.get('.box-ctas > .secondary').click()
-            .wait(3000);
+            .wait(2000);
 
         // Assert the filters are visible on the search page
         cy.get('.col-12 > .site').should('contain', 'Audi'); //make filter

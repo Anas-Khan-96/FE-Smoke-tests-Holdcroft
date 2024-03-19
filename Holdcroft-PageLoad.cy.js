@@ -1,8 +1,8 @@
 describe('Homepage Test', () => {
     it('Verify the homepage loads correctly', () => {
 //navigate to the HC Page
-cy.visit('https://holdcroft.pre.nexuspointdev.co.uk')
-.wait(3000)
+cy.visit(Cypress.env('apex_fe_hc_url'))
+.wait(2000);
 
 //accept cookies
 cy.get('#cookiescript_accept').click()
